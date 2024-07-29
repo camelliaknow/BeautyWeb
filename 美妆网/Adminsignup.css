@@ -1,0 +1,194 @@
+﻿
+.auto-style1 {
+    font-size: xx-large;
+    font-family: "Engravers MT";
+}
+
+.welcome {
+    font-size: x-large;
+}
+
+.info {
+    width: 900px;
+    height: 900px;
+    position: fixed; /* 将页面固定在屏幕上 */
+    z-index: 1;
+}
+
+.middle-info {
+    width: 667px;
+    height: 495px;
+    position: fixed; /* 将内容区域固定在屏幕上 */
+    top: 50px;
+    left: 68px;
+}
+
+.content {
+    margin-right: 50px;
+    position: fixed;
+}
+
+.auto-style4 {
+    width: 115px;
+    text-align: center;
+    height: 81px;
+}
+
+.auto-style8 {
+    width: 115px;
+    height: 88px;
+    text-align: center;
+}
+
+.auto-style9 {
+    height: 88px;
+    width: 374px;
+}
+
+.auto-style10 {
+    width: 823px;
+    height: 537px;
+    position: absolute;
+    top: -13px;
+    left: -24px;
+}
+
+.auto-style11 {
+    height: 81px;
+    width: 374px;
+}
+
+.auto-style12 {
+    width: 115px;
+    height: 62px;
+    text-align: center;
+}
+
+.auto-style13 {
+    height: 62px;
+    width: 374px;
+}
+
+.auto-style14 {
+    margin-right: 50px;
+    position: fixed;
+    left: 166px;
+    top: 122px;
+    width: 480px;
+    height: 358px;
+}
+
+.signup {
+    width: 244px;
+    height: 46px;
+    line-height: 50px;
+    float: left;
+    background-color: #919191;
+    position: fixed;
+}
+
+.auto-style15 {
+    width: 340px;
+    height: 37px;
+    line-height: 35px;
+    float: left;
+    background-color: #919191;
+    position: fixed;
+    left: 200px;
+    top: 518px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: large;
+    cursor: pointer
+}
+
+.auto-style16 {
+    font-size: medium;
+}
+
+.agree {
+    position: relative;
+}
+
+.auto-style17 {
+    position: relative;
+    left: 216px;
+    top: 513px;
+    width: 367px;
+    height: 53px;
+}
+
+.auto-style18 {
+    font-family: "微软雅黑 Light";
+    font-size: small;
+}
+
+.auto-style19 {
+    width: 27px;
+    height: 22px;
+    position: relative;
+    left: 2px;
+    top: 3px;
+}
+
+.auto-style20 {
+    width: 900px;
+    height: 530px;
+    position: absolute;
+    z-index: 1;
+    left: 10px;
+    top: 68px;
+}
+
+.auto-style21 {
+    font-size: small;
+}
+
+.auto-style22 {
+    font-family: 黑体;
+    display: inline-block;
+}
+
+.auto-style23 {
+    margin-top;
+    margin-bottom;
+    margin-left: 460px;
+    margin-top;
+    margin-bottom;
+}
+
+.auto-style24 {
+    color: #000000;
+}
+
+.r-bg {
+    margin-left: 450px;
+    position: relative;
+}
+
+.r-bg {
+    margin-left: 450px;
+    position: relative;
+    left: 577px;
+    top: 102px;
+    width: 324px;
+    height: 432px;
+}
+
+.auto-style26 {
+    margin-left: 450px;
+    position: relative;
+    left: 482px;
+    top: 38px;
+    width: 19%;
+    height: 385px;
+    margin-bottom: 0px;
+    background-image: url('/images/r1-bg.jpg');
+    /* 添加边框 */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* 添加阴影 */
+    padding: 20px; /* 添加内边距 */
+    border-radius: 10px; /* 添加圆角效果 */
+}
+
+
+

@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 5vh;
+    line-height: 5vh;
+    font-size: 1.2rem;
+    position: fixed;
+    float:left;
+    top:0;
+    background-color: antiquewhite;
+    border-bottom: 2px solid blueviolet;
+}
+    .h-left{
+        width: 20%;
+        height: 8vh;
+        float: left;
+    }
+    .h-right{
+        width: 20%;
+        height: 8vh;
+        float: right;
+        text-align:right;
+	    /* line-height:10vh;
+	    text-align:center;
+        margin-right: 0 auto; */
+    }
+    ul{
+        list-style: none;
+    }
+        .h-right ul{
+            display: none;
+            background-color: black;
+            color: aliceblue;
+            border-radius: 10%;
+           
+            text-align: center;
+        }
+        .h-right li{
+	 border-bottom: 2px solid white;
+	}
+        .h-right:hover ul{
+            display: block;
+        }
+        .h-right li:hover{
+            background-color: blue;
+        }
+       
+	 .shouye{
+            background-color: aquamarine;
+            border-radius: 10% 0 0 0;
+        }
+    .h-main{
+        height: 8vh;
+        margin-left: 20%;
+        margin-right: 20%;
+        float: left;
+    }
+#app{
+    margin-bottom: 13vh;
+}
+.one{
+    margin-top:5vh;
+    width: 100%;
+    height: 30vh;
+    border-bottom: 2px solid blueviolet;
+}
+    .one input{
+        width: 5%;
+        height: 6vh;
+        line-height: 6vh;
+        float: left;
+        margin-left: 1%;
+        margin-top: 10vh;
+        border-radius: 50%;
+    }
+.one .c-main{
+    width: 25%;
+    height: 30vh;
+    /* margin-left: 3%; */
+    float: left;
+}
+.c-main img{
+    width: 80%;
+    height: 20vh;
+    line-height: 25vh;
+    text-align: center;
+    margin-left: 7.5%;
+    margin-top: 2.5vh;
+}
+.c-right{
+    width: 68%;
+    height: 30vh;
+    margin-left: 1%;
+    float: left;
+}
+.r-top{
+    width: 100%;
+    height: 10vh;
+    margin-top: 2vh;
+    font-size: 1.6rem;
+    white-space: pre;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.r-main{
+    height: 5vh;
+    color: red;
+    font-size: 1.3rem;
+    margin-left: 10%;
+}
+.r-bottom{
+    width: 100%;
+    height:10vh ;
+    box-sizing:border-box;
+}
+    .shanchu{
+        width: 30%;
+        height: 10vh;
+        font-size: 1.5rem;
+        float: right;
+        text-align: center;
+        line-height: 10vh;
+    }
+    .buttons{
+        width: 50%;
+        height: 10vh;
+        font-size: 1.5rem;
+        /* float: left; */
+        text-align: center;
+        line-height: 10vh;
+    }
+        .jian{
+            width: 20%;
+            float: left;
+            margin-left: 15%;
+            border: 2px solid lavender;
+        }
+        .jia{
+            width: 20%;
+            float: right;
+            margin-right: 15%;
+            border: 2px solid lavender;
+        }
+        .jia:hover,.jian:hover{background:brown;}
+        .number{
+            margin-right: 35%;
+            margin-left: 35%;
+            border: 2px solid lavender;
+        }
+.bottom{
+    width: 100%;
+    height: 12vh;
+    float: left;
+    position: fixed;
+    bottom: 0;
+    background-color: antiquewhite;
+}
+    .two{
+        float: left;
+        width: 20%;
+        height: 12vh;
+    }
+        .quanxuan{
+            width: 35%;
+            height: 12vh;
+            font-size: 1.5rem;
+            line-height: 12vh;
+            text-align: center;
+            margin-left: 55%;
+        }
+        .two input{
+            width: 45%;
+            height: 6vh;
+            float: left;
+            text-align: center;
+            margin-top: 3vh;
+            margin-left: 10%;
+            line-height: 6vh;
+
+        }
+    .total-price{
+        width: 40%;
+        height: 12vh;
+        float: left;
+        margin-left: 6%;
+        line-height: 12vh;
+        /* text-align: center; */
+        font-size: 1.5rem;
+    }
+    span{
+        width: 30%;
+        height: 12vh;
+        float: right;
+        margin-right: 50%;
+        color: red
+    }
+    .queren{
+        width: 30%;
+        height: 12vh;
+        margin-left: 70%;
+        line-height: 12vh;
+        text-align: center;
+        font-size: 1.5rem;
+        background-color: aquamarine;
+    }

@@ -1,0 +1,175 @@
+﻿
+.HeaderMiddle.HeaderBg {
+    margin: auto;
+    width: 1190px;
+    height: 89px;
+    background-color: #ffffff;
+}
+
+.LoginBgPicture {
+    background: #e89090 scroll 50% 0;
+    min-width: 1190px;
+    width: 100%;
+    height: 610px;
+    z-index: 1; /*元素在 z 轴上的堆叠顺序*/
+    /*值越大的元素在堆叠顺序中越上面*/
+}
+
+.HeaderBg {
+    height: 69px;
+}
+
+.main {
+    width: 414px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 2;
+    top: 80px;
+    left: 109px;
+    height: 440px;
+    margin-right: 94px;
+    margin-left: 800px;
+    margin-top: 115px;
+    margin-bottom: 0;
+}
+
+.head {
+    font-size: x-large;
+    font-family: 华文新魏;
+    float: left;
+    margin: 26px 0 0 55px;
+}
+
+.auto-style1 {
+    font-size: large;
+    font-family: 微软雅黑;
+    float: left;
+    margin: 26px 0 0 0;
+}
+
+.tip {
+    width: 426px;
+    height: 32px;
+    line-height: 32px;
+    float: left;
+    font-size: 12px;
+}
+
+.mainMiddle {
+    margin: auto auto 17px 25px;
+    width: 300px;
+    height: 357px;
+}
+
+.webinput input {
+    appearance: none; /*消除浏览器默认外观差异*/
+    border: 1px solid#ccc;
+    height: 32px;
+    background-color: #fff;
+}
+
+.inputcombie {
+    width: 300px;
+    height: 32px;
+    float: left;
+    margin-top: 20px;
+    position: relative; /* 添加相对定位样式 */
+}
+
+.icon-left {
+    height: 19px;
+    width: 25px;
+    height: 21px;
+    margin-left: 7px;
+    margin-top: 6px;
+    position: absolute;
+}
+
+div.icon-left.password {
+    background-position: 0 0;
+}
+
+.autoLoginInAndSearchPassword {
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    color: #919191;
+}
+
+.confirmbutton2 {
+    width: 341px;
+    height: 44px;
+    line-height: 40px;
+    background-color: #999;
+    color: #fff;
+    float: left;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.forgetpw {
+    width: 244px;
+    height: 46px;
+    line-height: 50px;
+    float: left;
+    color: #919191;
+}
+
+    .forgetpw.forgetpw2 {
+        position: relative;
+    }
+
+.useragreeBox {
+    width: 314px;
+    float: left;
+    height: 64px;
+    margin-right: 0;
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+.userArgeeBox > P {
+    display: inline-block;
+    margin: 1px 0 0;
+    color: #919191;
+}
+
+.useragreeCheck {
+    float: left;
+    width: 22px;
+    height: 19px;
+    margin: 2px 2px 0 0;
+    position: relative;
+    top: 30px;
+    left: 0px;
+}
+
+.useragreeBox > p:nth-of-type(2).useragreeBox > p:nth-of-type(4) {
+    color: #000;
+    margin: 0 -4px;
+    cursor: pointer;
+}
+
+em {
+    font-weight: 400;
+    font-style: normal;
+}
+
+.forgetpw2 {
+    height: 50px;
+    width: 286px;
+}
+
+.singuptext {
+    position: relative;
+    top: 20px;
+    left: 308px;
+    height: 41px;
+    width: 95px;
+    font-size: smaller;
+    color: #CC3300;
+}
+

@@ -1,0 +1,636 @@
+﻿.header {
+width: 100%;
+height: 40px;
+margin: 0 auto;
+line-height: 40px;
+background-color: #000;
+}
+.wrap{
+margin:0 auto;
+font-size:12px;
+}
+.top-content-left {
+color: #fff;
+margin-left:60px;
+}
+.top-content-left span{
+margin-right:10px;
+margin-left:30px;
+}
+.logo {
+color: #fff;
+cursor: pointer;
+cursor: text;
+margin-right: 42px;
+margin-left:180px;
+}
+.module-carousel-text-single{
+position:relative;
+color:#fff;
+}
+.special{
+margin-left:60px;
+}
+.top-content-right {
+display: inline-block;
+color: #fff;
+position:relative;
+}
+.top-content-left hover {
+color: #dc002f;
+}
+.auto-style3 {
+color: #dc002f; /* 将 hover 时的颜色设置为红色 */
+text-decoration: none; /* 去除默认下划线 */
+}
+
+.auto-style3:hover {
+    color: red; /* 将 hover 时的颜色设置为红色 */
+}
+.search {
+min-width: 1190px;
+position: relative;
+z-index: 100;
+}
+.searchinfo{
+width:100%;
+height:100px;
+background-color:#fff;
+position:relative;
+}
+.logo-left {
+width: 240px;
+height: 52px;
+background-color: #fff;
+font-family: "Engravers MT";
+line-height:30px;
+font-size: xx-large;
+text-transform: uppercase;
+letter-spacing: 7px;
+position:relative;
+}
+.clearfix{
+width:1190px;
+height:84px;
+margin:0px 141.4px;
+padding:24px 0px 0px;
+position:relative;
+}
+.searchr{
+width:90px;
+height:35.6px;
+position:absolute;
+background:#000
+}
+.activity-icon heart-left {
+position: absolute;
+content: "";
+background: url( https://ssl1.sephorastatic.cn/soa/pc/images/navigation_sprite_wrap.png);
+top:30px;
+left:-37px;
+background-size:100%;
+}
+.navigation-info-content-menu-list-content{
+position:relative;
+color:black;
+}
+.navigation-info-content-menu-Col a {
+color: black;
+}
+.menu {
+display: flex;
+}
+
+.navigation-info-content-menu-Col {
+list-style: none;
+}
+
+.navigation-info-content-menu-Col li {
+    position: relative;
+    padding: 10px;
+}
+
+.navigation-info-content-menu-Col .submenu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 120%; /* 向右移动 20% */
+    background: #f4f4f4;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 提升阴影效果 */
+    padding: 20px; /* 增加内边距 */
+    border-radius: 5px; /* 减小圆角 */
+    z-index: 100; /* 确保框在顶层 */
+    font-size: 14px; /* 调整字体大小 */
+    color: #333; /* 调整文字颜色 */
+    border-radius: 10px; /* 添加圆角 */
+    z-index: 1; /* 确保框在顶层 */
+    transition: transform 0.5s ease-in-out; /* 平滑过渡效果 */
+    transform: scale(1.1); /* 鼠标悬停时放大 */
+    transform: scale(1.1); /* 放大1.1倍 */
+}
+
+
+
+.navigation-info-content-menu-Col li:hover .submenu {
+    display: block;
+}
+/* 添加hover效果 */
+.auto-style14 .navigation-info-content-menu-Col li:hover {
+    background-color: #f4f4f4; /* 鼠标悬停时的背景颜色 */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease-in-out; /* 平滑过渡效果 */
+}
+
+/* 鼠标悬停在子菜单项上时改变颜色 */
+.auto-style14 .navigation-info-content-menu-Col li ul.submenu li:hover {
+background-color: #eee; /* 鼠标悬停时的背景颜色 */
+}
+
+
+.navigation-info-content-menu-Col .auto-style16,
+.navigation-info-content-menu-Col .auto-style17,
+.navigation-info-content-menu-Col .auto-style18,
+.navigation-info-content-menu-Col .auto-style19,
+.navigation-info-content-menu-Col .auto-style20,
+.navigation-info-content-menu-Col .auto-style21 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 120%; /* 向右移动 20% */
+    background: #f4f4f4;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 提升阴影效果 */
+    padding: 20px; /* 增加内边距 */
+    border-radius: 5px; /* 减小圆角 */
+    z-index: 100; /* 确保框在顶层 */
+    font-size: 14px; /* 调整字体大小 */
+    color: #333; /* 调整文字颜色 */
+    border-radius: 10px; /* 添加圆角 */
+    z-index: 1; /* 确保框在顶层 */
+    transition: transform 0.5s ease-in-out; /* 平滑过渡效果 */
+}
+.navigation-info-content-menu-Col li:hover .auto-style16,
+.navigation-info-content-menu-Col li:hover .auto-style17,
+.navigation-info-content-menu-Col li:hover .auto-style18,
+.navigation-info-content-menu-Col li:hover .auto-style19,
+.navigation-info-content-menu-Col li:hover .auto-style20,
+.navigation-info-content-menu-Col li:hover .auto-style21 {
+    display: block;
+    box-shadow: 0 0 10px rgb(128, 128, 128); /* 添加阴影效果 */
+    border-radius: 5px; /* 添加圆角 */
+}
+.bg {
+    width: 1190px;
+    height: 400px;
+    margin-left: 240px;
+    background-size:100%;
+
+}
+.bg img {
+    max-width: 100%; /* 图片最大宽度为父容器宽度 */
+    height: auto; /* 高度自适应，防止变形 */
+}
+.info-conten{
+    width:760px;
+    height:36px;
+    margin-left:240px;
+}
+.conten-top li{
+    margin-right:50px;
+    color:black;
+    display:inline-block;
+    margin-top:2px;
+    z-index:708;
+
+}
+.brand-title{
+    width:1190px;
+    height:36px;
+    margin:0px 129px;
+}
+.brand-le li{
+    float:left;
+    font-size:15px;
+    justify-content:end;
+}
+.brand-le {
+    letter-spacing: 2px;
+    position:relative;
+}
+.sbrand1:hover {
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.sbrand2:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+.middle{
+    width:1448px;
+    height:317px;
+    margin:0px 0px 80px;
+}
+.middle img {
+    border: 0px;
+    vertical-align: middle;
+    -ms-interpolation-mode:bicubic;
+}
+
+.brand-body-content-right {
+    width: 600px;
+    display: block;
+    height: 320px;
+}
+.module_tabGroupList_show{
+    position:relative;
+}
+.module_tabGroupList ul li {
+    width: 149px;
+    height: 79px;
+    border-right: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+}
+    .module_tabGroupList ul li .module_tabGroupList_hover .module_tabGroupList_link {
+        width: 84px;
+        height: 20px;
+        text-align: center;
+        color: #fff;
+        background-color: #e00;
+        line-height: 18px;
+        border-radius: 12px;
+    }
+
+    .module_tabGroupList ul li a {
+        width: 144px;
+        height: 60px;
+        display: block;
+        margin: 5px auto;
+    }
+
+a, a:focus, a:hover {
+    text-decoration: none;
+}
+
+a {
+    color: #000;
+    font-weight: 400;
+}
+
+用户代理样式表
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.module_tabGroupList_link {
+    position: relative;
+    display: inline-block;
+}
+
+.module_tabGroupList_hover {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    border: 1px solid #ccc;
+    z-index: 1;
+    background-color: rgba(128, 128, 128, 0.7);
+    width: 144px; /* 图片宽度 */
+    height: 60px; /* 图片高度 */
+    text-align: center;
+    color:aliceblue;
+    line-height: 60px;
+}
+
+.module_tabGroupList_link:hover .module_tabGroupList_hover {
+    visibility: visible;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    max-width: 1200px;
+    margin: 20px;
+    position:relative;
+}
+
+.item {
+    border: 0px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    height: 40%;
+    width:258px;
+    height:310px;
+}
+
+    .item img {
+        max-width: 70%;
+        height: auto;
+        object-fit: cover;
+        margin-bottom:15px;
+    }
+
+    .item p {
+        text-align:left;
+        line-height:30px;
+        text-overflow:revert-layer;
+    }
+    .item li{
+        width:447px;
+    }
+    
+        .auto-style3 {
+            color: #FFFFFF;
+        }
+        .auto-style4 {
+            display: inline-block;
+            color: #fff;
+            position: relative;
+            left: 101px;
+            top: -2px;
+        }
+        .新建样式1 {
+            font-family: "Engravers MT";
+            font-size: 18px;
+        }
+
+        .auto-style5 {
+            width: 240px;
+            height: 52px;
+            background-color: #fff;
+            font-family: "Engravers MT";
+            line-height: 30px;
+            font-size: xx-large;
+            text-transform: uppercase;
+            letter-spacing: 7px;
+            position: relative;
+            left: 164px;
+            top: 8px;
+        }
+        .auto-style6 {
+            width: 240px;
+            height: 78px;
+            background-color: #fff;
+            font-family: "Engravers MT";
+            line-height: 30px;
+            font-size: xx-large;
+            text-transform: uppercase;
+            letter-spacing: 7px;
+            position: relative;
+            left: 164px;
+            top: -18px;
+        }
+        .auto-style7 {
+            width: 350%;
+            height: 107px;
+            background-color: #fff;
+            position: relative;
+            left: 299px;
+            top: -52px;
+        }
+
+        .auto-style8 {
+            margin-bottom: 44;
+            width: 667px;
+            height: 50px;
+        }
+
+        .auto-style9 {
+            width: 550px;
+            height: 31px;
+            text-indent:2em;
+            margin-bottom: 0;
+            border: 1px solid #000000; /* 添加边框样式 */
+            padding: 5px; /* 添加内边距 */
+        }
+
+        .auto-style10 {
+            width: 102px;
+            height: 43px;
+            position: relative;
+            left: 564px;
+            top: -50px;
+            background-color:black;
+            font-size:23px;
+            color:aliceblue;
+            text-align:center;
+            line-height:45px;
+            cursor:pointer;
+        }
+
+
+        .auto-style11 {
+            width: 166px;
+            position:relative;
+            left: 666px;
+            top: -54px;
+            height: 68px;
+            line-height:34px;
+            margin-top:8px;
+            margin-left:60px;
+            border:#ddd;
+            text-align:center;
+            cursor:pointer;
+        }
+        .auto-style11 :hover{
+            color:cadetblue;
+        }
+        .font{
+            font-size:20px;
+        }
+
+        .auto-style12 {
+            height: 588px;
+            position:relative;
+            left: 0px;
+            top: 0px;
+            width: 1443px;
+        }
+
+        .auto-style13 {
+            margin-left:150px;
+            float:left;
+            width:233px;
+            height:36px;
+            background:url(	https://ssl1.sephorastatic.cn/soa/pc/images/classified.png);
+            font-size:16px;
+            line-height:36px;
+            background-size:100% 100%;
+        }
+
+        .auto-style14 {
+            height: 39px;
+            display:block;
+            width:240px;
+            height:547px;
+            float:left;
+            background:#fff;
+            position:relative;
+            left: -241px;
+            top: 42px;
+        }
+
+        .auto-style15 {
+            width: 346px;
+            height: 118px;
+            position:relative;
+            left: 246px;
+            top: -19px;
+        }
+
+        .auto-style16 {
+            position: relative;
+            left: 243px;
+            top: -22px;
+            width: 348px;
+            height: 104px;
+            display: none;
+            background: #fff;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .auto-style17 {
+            position: relative;
+            left: 247px;
+            top: -19px;
+            width: 352px;
+            height: 115px;
+            margin-right: 2;
+        }
+        .auto-style18 {
+            left: 245px;
+            top: -14px;
+            position:relative;
+            width: 361px;
+            height: 100px;
+        }
+
+        .auto-style19 {
+            left: 247px;
+            top: -17px;
+            width: 353px;
+            height: 91px;
+            position:relative;
+        }
+        
+        .auto-style20 {
+            left: 246px;
+            top: -15px;
+            width: 360px;
+            height: 91px;
+            position:relative;
+        }
+        
+        .auto-style21 {
+            left: 240px;
+            top: -19px;
+            width: 365px;
+            height: 116px;
+            position:relative;
+        }
+        
+        .auto-style23 {
+            width: 844px;
+            height: 329px;
+        }
+        
+        .auto-style24 {
+            font-size: large;
+        }
+        .auto-style25 {
+            height: 24px;
+            margin-left: 192;
+            position: relative;
+            left: -224px;
+            top: 10px;
+            cursor:pointer;
+        }
+        .auto-style25 li:hover{
+            color:red;
+        }
+        .auto-style26 {
+            width: 1198px;
+            height: 520px;
+            margin-left: 240px;
+            background-size: 100%;
+        }
+        
+        .auto-style27 {
+            width: 273px;
+            height: 143px;
+        }
+        
+        .auto-style28 {
+            width: 275px;
+            height: 144px;
+        }
+        .auto-style29 {
+            width: 300px;
+            height: 144px;
+        }
+        
+        .auto-style30 {
+            font-size: xx-large;
+        }
+        
+        .auto-style31 {
+            width: 590px;
+            height: 320px;
+            z-index: 1;
+            position: absolute;
+            left: 146px;
+            top: 845px;
+        }
+        .auto-style32 {
+            width: 1448px;
+            height: 359px;
+            margin: 0px 0px 80px;
+        }
+        
+        .auto-style33 {
+            position: relative;
+            left: 737px;
+            top: -266px;
+            width: 660px;
+            height: 323px;
+        }
+        
+        .auto-style34 {
+            width: 213px;
+            height: 276px;
+        }
+        .auto-style35 {
+            width: 535px;
+            height: 746px;
+        }
+        .auto-style36 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            max-width: 1200px;
+            margin: 20px;
+            position: relative;
+            left: 140px;
+            top: 54px;
+            width: 1086px;
+            height: 3060px;
+        }
+        .auto-style36 li{
+
+        }
+        .manager{
+            color:#ddd;
+        }
+
+        
+        
